@@ -20,6 +20,7 @@ public class SelectionSort {
 		}
 	}
 	
+	//find max index
 	public static int getMax(int arr[],int start, int end)
 	{
 		int max = start;
@@ -34,6 +35,8 @@ public class SelectionSort {
 		return max;
 	}
 	
+	
+	//swap max index with last
 	public static void swap(int nums[],int first,int second)
 	{
 		int temp = nums[first];
